@@ -36,6 +36,6 @@ jobs:
       - name: run tests
         run: |
           source env/bin/activate
-          pip freeze
+          pytest
           
 
